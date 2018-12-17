@@ -52,7 +52,11 @@ library(AICcmodavg) #some useful model averaging functions
 library(summarytools) #some basic functions for summarizing data
 ```
 
+# Get the data
 ```{r}
-(z=2+2*8)
+dat1 <- read.csv("eggshells.csv")
+
+view #needs summarytools package
+
 ```
 
